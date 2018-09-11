@@ -1,0 +1,144 @@
+/*=========================================login================================*/
+.login {
+    margin: 0 auto;
+    width:368px;
+}
+
+.login .tabs {
+  padding: 0 2px;
+  margin: 0 -2px;
+  
+}
+
+.login .tabs :global .ant-tabs-tab {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.login .tabs :global .ant-input-affix-wrapper .ant-input:not(:first-child) {
+    padding-left: 34px
+}
+
+.login :global .ant-tabs .ant-tabs-bar {
+  border-bottom: 0;
+  margin-bottom: 24px;
+  text-align: center
+}
+
+.login :global .ant-form-item {
+    margin-bottom: 24px;
+  }
+
+
+.login .prefixIcon {
+  font-size: 14px;
+  color: fade(#000, 25%)
+}
+
+.login .getCaptcha {
+  display: block;
+  width: 100%
+}
+
+.login .submit {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.login-form-button{
+    width: 100%;
+}
+.login-form-forgot{
+    float: right;
+}
+/*=========================================================================*/
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    background: #f0f2f5;
+  }
+  
+  .content {
+    padding: 32px 0;
+    flex: 1;
+  }
+  
+   
+  .container {
+  background-image: url('../images/background.svg');
+  background-repeat: no-repeat;
+  background-position: center 110px;
+  background-size: 100%;
+  }
+  
+  .container .content {
+  padding: 112px 0 24px 0;
+  }
+   
+  
+  .top {
+    text-align: center
+  }
+  
+  .header {
+    height: 44px;
+    line-height: 44px;
+    
+  }
+  
+  .header a {
+      text-decoration: none;
+    }
+  
+  .logo {
+    height: 44px;
+    vertical-align: top;
+    margin-right: 16px;
+  }
+  
+  .title {
+    font-size: 33px;
+    color:  fade(#000, 85%);
+    font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: fade(#000, 45%);
+    margin-top: 12px;
+    margin-bottom: 40px
+  }
+  
+  
+  
+  .globalFooter {
+      padding: 0 16px;
+      margin: 48px 0 24px 0;
+      text-align: center
+  }
+  
+  .globalFooter .links {
+      margin-bottom: 8px;
+    }
+  .globalFooter .links a {
+      color: fade(#000, 45%);
+      transition: all 0.3s;
+    }
+  
+    .globalFooter .links a :not(:last-child){
+        margin-right: 40px
+    }
+  
+    .globalFooter .links a :hover{
+        color:fade(#000, 65%)
+    }
+  
+  .globalFooter .copyright {
+      color: fade(#000, 45%);
+      font-size: 14px
+    }

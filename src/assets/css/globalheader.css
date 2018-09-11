@@ -1,0 +1,121 @@
+
+.globalHeader {
+  height: 64px;
+  padding: 0 12px 0 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  position: relative;
+}
+
+.globalHeader :global .ant-layout {
+    min-height: 100vh;
+    overflow-x: hidden
+  }
+
+.globalHeader .logo {
+  height: 64px;
+  line-height: 58px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 0 0 0 24px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.globalHeader .logo img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.globalHeader .menu:global(.anticon) {
+    margin-right: 8px;
+  }
+.globalHeader .menu:global(.ant-dropdown-menu-item) {
+    width: 160px;
+  }
+
+.globalHeader i.trigger {
+  font-size: 20px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: all 0.3s, padding 0s;
+  padding: 0 24px;
+  
+}
+
+.globalHeader i.trigger :hover {
+    background: #1890ff;
+  }
+
+.globalHeader .right {
+  float: right;
+  height: 100%;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+  .globalHeader .right:hover {
+    background: #e6f7ff;
+  }
+
+  .globalHeader .right .account{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .globalHeader .right .account .avatar {
+      margin: 20px 8px 20px 0;
+      color: #1890ff;
+      background: rgba(255, 255, 255, 0.85);
+      vertical-align: middle;
+    
+  }
+
+.globalHeader i.trigger :hover .action {
+    cursor: pointer;
+    padding: 0 12px;
+    display: inline-block;
+    transition: all 0.3s;
+    height: 100%;
+    
+  }
+
+  .globalHeader i.trigger :hover .action > i {
+    font-size: 16px;
+    vertical-align: middle;
+    color: fade(#000, 65%);
+  }
+  .globalHeader i.trigger :hover .action:hover,
+  .globalHeader i.trigger :hover .action:global(.ant-popover-open) {
+    background: #1890ff;
+  }
+
+@media only screen and (max-width: 768px) {
+  .globalHeader {
+    
+  }
+  .globalHeader:global(.ant-divider-vertical) {
+    vertical-align: unset;
+  }
+  .globalHeader .name {
+    display: none;
+  }
+  .globalHeader i.trigger {
+    padding: 0 12px;
+  }
+  .globalHeader .logo {
+    padding-right: 12px;
+    position: relative;
+  }
+  .globalHeader .right {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    background: #fff;
+    
+  }
+  .globalHeader .right .account .avatar {
+      margin-right: 0;
+    
+  }
+}

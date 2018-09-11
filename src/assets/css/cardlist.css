@@ -1,0 +1,83 @@
+.filterCardList {
+    background:#f0f2f5;
+    padding:24px;
+    margin: 0;
+    min-height: 280px;
+  }
+  
+  .filterCardList :global .ant-card-meta-content {
+    margin-top: 0;
+  }
+ 
+  .filterCardList :global .ant-card-meta-avatar {
+    font-size: 0;
+  }
+  .filterCardList :global .ant-card-actions {
+    background: #f7f9fa;
+  }
+  .filterCardList :global .ant-list .ant-list-item-content-single {
+    max-width: 100%;
+  }
+
+  .filterCardList .cardInfo {
+    zoom: 1;
+    
+    margin-top: 16px;
+    margin-left: 10px;
+  }
+
+  .filterCardList .card .ant-card-actions li{
+    text-align: right;
+    padding-right: 10px;
+  }
+
+
+  .filterCardList .cardList {
+    zoom: 1;
+    
+    margin-top: 16px;
+    margin-left: 10px;
+    width:300px;
+  }
+
+  .cardItemContent1 .cardList p {
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .filterCardList .cardInfo:before,
+  .filterCardList .cardInfo:after {
+        content: ' ';
+        display: table;
+    }
+  .filterCardList .cardInfo:after {
+        clear: both;
+        visibility: hidden;
+        font-size: 0;
+        height: 0;
+    }
+
+  .filterCardList .cardInfo > div {
+    position: relative;
+    text-align: left;
+    float: left;
+    width: 50%;
+    
+  }
+
+  .filterCardList .cardInfo > div p {
+    line-height: 32px;
+    font-size: 24px;
+    margin: 0;
+  }
+  .filterCardList .cardInfo > div p:first-child {
+    color: fade(#000, 45%);
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 4px;
+  }
+
+  .cardToolsMenuItem p {
+    margin-bottom: 0px;
+  }
